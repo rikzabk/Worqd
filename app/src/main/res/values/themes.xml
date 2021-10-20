@@ -14,9 +14,5 @@
         <!-- Customize your theme here. -->
         <item name="fontFamily">@font/nunito</item>
         <item name="textAllCaps">false</item>
-        <item name="android:imageButtonStyle"></item>
-    </style>
-    <style name="rounded_button" parent="android:Widget.Button">
-        <item name="roundd"
     </style>
 </resources>
