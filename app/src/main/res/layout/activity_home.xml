@@ -6,5 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <include layout="@layout/app_bar"/>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:backgroundTint="@color/white"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/homeToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_logo_worqd" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/appBar"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile App Development"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/appBar"/>
+
+        <TextView
+            android:id="@+id/tv_recent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recently Viewed"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/tv_interest"
+            tools:layout_editor_absoluteX="148dp" />
+
+        <TextView
+            android:id="@+id/tv_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Services"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/tv_recent"
+            tools:layout_editor_absoluteX="166dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scrollbars="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/tv_popular"
+            tools:layout_editor_absoluteX="0dp"
+            tools:listitem="@layout/recycler_card" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
