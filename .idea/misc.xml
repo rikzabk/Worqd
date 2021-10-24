@@ -9,13 +9,15 @@
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/drawable/ic_welcome_page.xml" value="0.14629629629629629" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/drawable/rounded_button.xml" value="0.3828125" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/drawable/toolbar_custom.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_home.xml" value="0.5" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_show.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/activity_welcome_page.xml" value="0.33" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/app_bar.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/recycler_card.xml" value="0.5" />
+        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/recycler_card.xml" value="0.9" />
+        <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/layout/recycler_view_item.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/rikza/AndroidStudioProjects/Worqd/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
       </map>
     </option>
